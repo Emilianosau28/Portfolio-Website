@@ -6,13 +6,15 @@ export default function About() {
       <div className="bg-about absolute inset-0 -z-10" />
       <section id="about-me" className="min-h-screen flex flex-col justify-center px-6 py-20 max-w-5xl mx-auto">
       <div className="flex flex-col md:flex-row gap-12 items-center">
-        <Image
-          src="/Z08_0538.JPG"
-          alt="Emiliano Saucedo Goldschmied"
-          width={280}
-          height={320}
-          className="rounded-2xl object-cover shrink-0 w-48 md:w-[280px]"
-        />
+        <div className="shrink-0 w-48 md:w-[280px]">
+          <Image
+            src="/Z08_0538.JPG"
+            alt="Emiliano Saucedo Goldschmied"
+            width={280}
+            height={320}
+            className="rounded-2xl object-cover w-full h-auto"
+          />
+        </div>
         <div className="flex flex-col gap-8">
           <h2 className="text-3xl font-serif">About Me</h2>
           <p className="text-white-400 text-md leading-relaxed">
