@@ -1,19 +1,12 @@
-import Hero from "@/components/Hero"
+import Contact from "@/components/Contact"
 import PageTransition from "@/components/PageTransition"
 
-export default function Home() {
+export default function ContactPage() {
   return (
     <PageTransition>
       <main>
-        <Hero />
+        <Contact />
       </main>
     </PageTransition>
   )
 }
-
-
-
-
-
-
-

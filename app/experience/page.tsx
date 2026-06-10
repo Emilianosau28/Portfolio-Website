@@ -1,19 +1,12 @@
-import Hero from "@/components/Hero"
+import Experience from "@/components/Experience"
 import PageTransition from "@/components/PageTransition"
 
-export default function Home() {
+export default function ExperiencePage() {
   return (
     <PageTransition>
       <main>
-        <Hero />
+        <Experience />
       </main>
     </PageTransition>
   )
 }
-
-
-
-
-
-
-
