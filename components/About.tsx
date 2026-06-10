@@ -11,7 +11,7 @@ export default function About() {
           alt="Emiliano Saucedo Goldschmied"
           width={280}
           height={320}
-          className="rounded-2xl object-cover shrink-0"
+          className="rounded-2xl object-cover shrink-0 w-48 md:w-[280px]"
         />
         <div className="flex flex-col gap-8">
           <h2 className="text-3xl font-serif">About Me</h2>

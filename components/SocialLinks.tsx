@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa"
 
 export default function SocialLinks() {
   return (
-    <div className="fixed bottom-6 right-10 flex flex-col gap-4 z-50">
+    <div className="fixed bottom-6 right-4 md:right-10 flex flex-col gap-3 md:gap-4 z-50">
       <a
         href="https://www.linkedin.com/in/emiliano-saucedo-goldschmied/"
         target="_blank"
